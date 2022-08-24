@@ -3,7 +3,7 @@ const eqArrays = (arrayOne, arrayTwo) => {
 };
 
 const assertArraysEqual = (arrayOne, arrayTwo) => {
-  eqArrays(arrayOne, arrayTwo) ? console.log(`😀😀😀Assertion Passed`) : console.log(`🤢🤢🤢Assertion Failed`);
+  eqArrays(arrayOne, arrayTwo) ? console.log(`😀😀😀Assertion Passed: ${arrayOne} === ${arrayTwo}`) : console.log(`🤢🤢🤢Assertion Failed: ${arrayOne} === ${arrayTwo}`);
 };
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]);
