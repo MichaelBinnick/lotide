@@ -1,10 +1,6 @@
 const assert = require('chai').assert;
 const map = require('../index.js').map;
 
-// assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']);
-// assertArraysEqual(map(words, word => word[0] + word[1]), ['gr', 'co', 'to', 'ma', 'to']);
-// assertArraysEqual(map(numbers, number => number + 1), [2, 3, 4, 5, 6]);
-
 const numbers = [1, 2, 3, 4, 5];
 const words = ["ground", "control", "to", "major", "tom"];
 

@@ -1,12 +1,6 @@
 const assert = require('chai').assert;
 const countLetters = require('../index.js').countLetters;
 
-// assertEqual((countLetters('Hello, I am Mike').H), 1);
-// assertEqual((countLetters('54 67 32')[3]), 1);
-// assertEqual((countLetters('I am Groot').o), 2);
-// assertEqual((countLetters('Lighthouse roolz').z), 1);
-// assertEqual((countLetters('Bootcamp is easy!')['!']), 1);
-
 describe("#countLetters on the happy path", () => {
   it("returns 1 for property H of the object returned by countLetters('Hello, I am Mike')", () => {
     assert.strictEqual(countLetters('Hello, I am Mike').H, 1);
