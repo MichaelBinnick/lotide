@@ -1,5 +1,5 @@
 // takes in a list(array) of items and rules(true or false for which items to count)
-// returns an equal with counts for each item that was asked for
+// returns an object with counts for each item that was asked for
 const countOnly = (list, rules) => {
   const output = {};
   const ruleList = [];
