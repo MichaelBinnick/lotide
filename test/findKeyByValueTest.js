@@ -1,12 +1,6 @@
 const assert = require('chai').assert;
 const findKeyByValue = require('../index.js').findKeyByValue;
 
-// assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-// assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
-// assertEqual(findKeyByValue(bestTVShowsByGenre, "Dexter"), undefined);
-// assertEqual(findKeyByValue(bestTVShowsByGenre, "Loki"), "comic");
-// assertEqual(findKeyByValue(bestTVShowsByGenre, "Evangelion"), "anime");
-
 const bestTVShowsByGenre = { 
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
