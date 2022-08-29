@@ -1,11 +1,3 @@
-const eqArrays = (arrayOne, arrayTwo) => {
-  return arrayOne.toString() === arrayTwo.toString();
-};
-
-const assertArraysEqual = (arrayOne, arrayTwo) => {
-  eqArrays(arrayOne, arrayTwo) ? console.log(`😀😀😀Assertion Passed`) : console.log(`🤢🤢🤢Assertion Failed`);
-};
-
 const letterPositions = sentence => {
   let sentenceCopy = sentence;
   let results = {};
@@ -18,7 +10,4 @@ const letterPositions = sentence => {
   return results;
 };
 
-assertArraysEqual(letterPositions('hello').h, [0]);
-assertArraysEqual(letterPositions('hello').e, [1]);
-assertArraysEqual(letterPositions('hello').l, [2, 3]);
-assertArraysEqual(letterPositions('hello').o, [4]);
+module.exports = letterPositions;
